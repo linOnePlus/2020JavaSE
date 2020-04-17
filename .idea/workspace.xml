@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32561e42-7ca9-450e-b771-12ce339d74ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\jin10\Desktop\LINs_Workplace\2020JavaSE\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aZk26dk0ZrdKiuOhwrzzcPI4Ok" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager" selected="Application.Shuchu">
+    <configuration name="Shuchu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lin.processcontrol.Shuchu" />
+      <module name="2020JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.processcontrol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lin.processcontrol.Sout" />
+      <module name="2020JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.processcontrol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Shuchu" />
+        <item itemvalue="Application.Sout" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32561e42-7ca9-450e-b771-12ce339d74ce" name="Default Changelist" comment="" />
+      <created>1586950292849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586950292849</updated>
+      <workItem from="1586950294079" duration="3072000" />
+      <workItem from="1587110094916" duration="1278000" />
+      <workItem from="1587115239562" duration="1161000" />
+    </task>
+    <task id="LOCAL-00001" summary="4.17">
+      <created>1587115331060</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587115331060</updated>
+    </task>
+    <task id="LOCAL-00002" summary="4.17 test hebing">
+      <created>1587116402279</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587116402279</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="4.17" />
+    <MESSAGE value="4.17 test hebing" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.17 test hebing" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" width="814" height="729" key="#Intentions" timestamp="1586952529880">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" width="814" height="729" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1586952529880" />
+    <state x="361" y="71" key="#Project_Structure" timestamp="1586950309228">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1586950309228" />
+    <state x="349" y="6" key="CommitChangelistDialog2" timestamp="1587116401845">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587116401845" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1586953368571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586953368571" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1586953368571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586953368571" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1586953368571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586953368571" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1586953368571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586953368571" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586953368571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586953368571" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586953368571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586953368571" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586953368571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586953368571" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586953368571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586953368571" />
+    <state x="254" y="110" key="SettingsEditor" timestamp="1586951464996">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="254" y="110" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586951464996" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1587116410251">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587116410251" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1587115250907">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587115250907" />
+    <state x="465" y="204" key="git4idea.merge.GitPullDialog" timestamp="1587114028311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1587114028311" />
+    <state x="431" y="145" key="search.everywhere.popup" timestamp="1586951694088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586951694088" />
+  </component>
+</project>
