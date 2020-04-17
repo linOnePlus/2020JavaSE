@@ -19,6 +19,7 @@ public class Shuchu {
             System.out.println("hello");
         } else {
             System.out.println("error");
+            System.out.println("git push");
         }
         scanner.close();
     }
