@@ -20,6 +20,7 @@ public class Shuchu {
         } else {
             System.out.println("error");
             System.out.println("git push");
+            System.out.println("test hebing");
         }
         scanner.close();
     }
