@@ -1,8 +1,5 @@
-package com.lin.processcontrol;
+package liucheng;
 
-import jdk.nashorn.internal.ir.IfNode;
-
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Shuchu {
