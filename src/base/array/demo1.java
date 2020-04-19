@@ -1,5 +1,7 @@
 package base.array;
-
+/**
+ * 数组定义以及内存
+ */
 public class demo1 {
     public static void main(String[] args) {
         boolean [] arr = new boolean[5];
