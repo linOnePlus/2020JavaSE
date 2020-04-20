@@ -5,7 +5,7 @@ package base.array;
 public class demo1 {
     public static void main(String[] args) {
         boolean [] arr = new boolean[5];
-        System.out.println(arr[3]); //默认值
+        System.out.println(arr[3]); //默认值是
 
         String [] arr2 = new String[]{"hello","twice","time","learning"};
         System.out.println(arr2.length+" "+arr2[1]);
