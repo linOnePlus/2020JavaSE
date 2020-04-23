@@ -1,4 +1,4 @@
-package liucheng;
+package base.liucheng;
 
 import java.util.Scanner;
 
