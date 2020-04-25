@@ -17,7 +17,7 @@ public class MyStringBuilder {
 class test{
     boolean aBoolean;
 
-    public boolean isaBoolean() {//注意方法名
+    public boolean isaBoolean() {//注意方法 不是get
         return aBoolean;
     }
 
