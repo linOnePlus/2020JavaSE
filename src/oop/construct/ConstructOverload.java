@@ -1,6 +1,5 @@
-package oop;
+package oop.construct;
 /*构造可以重载*/
-import javax.naming.Name;
 
 public class ConstructOverload {
     public ConstructOverload(){

@@ -23,8 +23,8 @@ enum Weekday {
 
 enum Color {
     RED(1,"hong"),BLUE(2,"lan");
-    int num;
-    String chinese;
+    final int num;
+    final String chinese;
 
     private Color(int num, String chinese) {
         this.num = num;

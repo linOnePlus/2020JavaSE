@@ -1,6 +1,4 @@
-package oop;
-
-import org.omg.CORBA.StringHolder;
+package oop.construct;
 
 public class ConstructExtends {
 }
