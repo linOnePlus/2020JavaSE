@@ -11,6 +11,8 @@ public class Static {
         b.num = 30;
         System.out.println(a.num); //a和b引用指向同一个方法区
         Person.test();
+
+
     }
 }
 class Person{
@@ -22,5 +24,12 @@ class Person{
     }
     static {
         System.out.println("i am lin");
+    }
+}
+
+class man extends Person{
+     static int test(){
+         System.out.println(" i am lin2");
+         return  1;
     }
 }
