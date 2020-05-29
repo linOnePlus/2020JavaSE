@@ -12,7 +12,7 @@ public class Dynamic_proxy {
             @Override
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
                 System.out.println(method);
-                if (method.getName().equals("hello")) {
+                if (method.getName().equals("hello2")) {
                     System.out.println("这是动态代理的内容");
                 }
                 return null;
@@ -20,7 +20,7 @@ public class Dynamic_proxy {
 
         };
         hello h = (hello) Proxy.newProxyInstance(hello.class.getClassLoader(), new Class[]{hello.class}, invocationHandler);
-        h.hello();
+        h.hello2();
 
 
         //不用内部类的写法
@@ -32,10 +32,15 @@ public class Dynamic_proxy {
 }
 
 interface hello {
+    void hello2();
+
     void hello();
 }
 
 class helloimpl implements hello {
+
+    @Override
+    public void hello2() { }
 
     @Override
     public void hello() {
@@ -54,7 +59,6 @@ class MyProxy implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-
         method.invoke(h2);
         return null;
     }
