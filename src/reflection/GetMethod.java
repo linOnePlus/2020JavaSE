@@ -1,13 +1,13 @@
 package reflection;
 
-import javax.net.ssl.SSLContext;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.net.Socket;
 import java.util.Arrays;
 
 public class GetMethod {
-    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+    public static void main(String[] args)
+            throws ClassNotFoundException, NoSuchMethodException,
+            InvocationTargetException, IllegalAccessException {
         Class p = Class.forName("reflection.Person");
         Class s = Student.class;
         Method[] methods = s.getMethods();
@@ -15,7 +15,7 @@ public class GetMethod {
             System.out.println(i + "" + methods[i]);
         }
         System.out.println("----------------------------------------------------");
-
+        //第一个参数是名称，后面代表类型
         Method getScore = s.getMethod("getScore", String.class);
         System.out.println(getScore.getName());
         System.out.println(getScore.getReturnType());

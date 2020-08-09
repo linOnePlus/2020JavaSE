@@ -7,7 +7,9 @@ public class GetClass {
         Class<GetClass> getClassClass = GetClass.class;
         GetClass getClass = new GetClass();
         Class<? extends GetClass> aClass1 = getClass.getClass();
+        double random = Math.random();
 
         Student student = (Student) aClass.newInstance();
+
     }
 }

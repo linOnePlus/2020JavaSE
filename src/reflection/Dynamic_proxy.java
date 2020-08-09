@@ -8,10 +8,15 @@ import java.lang.reflect.Proxy;
 //没搞懂
 public class Dynamic_proxy {
     public static void main(String[] args) {
+        //invocationHandler是 InvocationHandler 接口实现类的子类
         InvocationHandler invocationHandler = new InvocationHandler() {
             @Override
-            public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+            public Object invoke(Object proxy, Method method, Object[] args)
+                    throws Throwable {
                 System.out.println(method);
+                if (method.getName().equals("hello")) {
+                    System.out.println("this is hello method");
+                }
                 if (method.getName().equals("hello2")) {
                     System.out.println("这是动态代理的内容");
                 }
@@ -19,14 +24,18 @@ public class Dynamic_proxy {
             }
 
         };
-        hello h = (hello) Proxy.newProxyInstance(hello.class.getClassLoader(), new Class[]{hello.class}, invocationHandler);
-        h.hello2();
+        //JDK中的Proxy类创建接口的实现类
+        hello h = (hello) Proxy.newProxyInstance(hello.class.getClassLoader(),
+                new Class[]{hello.class}, invocationHandler);
+        //调用实现类中的方法
+        h.hello();
 
 
         //不用内部类的写法
-        InvocationHandler invocationHandler2 = new MyProxy(new helloimpl());
-        hello hello3 = (hello) Proxy.newProxyInstance(hello.class.getClassLoader(), new Class[]{hello.class}, invocationHandler2);
+        hello hello3 = (hello) Proxy.newProxyInstance(hello.class.getClassLoader(),
+                new Class[]{hello.class}, new MyProxy());
         hello3.hello();
+
 
     }
 }
@@ -37,29 +46,14 @@ interface hello {
     void hello();
 }
 
-class helloimpl implements hello {
-
-    @Override
-    public void hello2() { }
-
-    @Override
-    public void hello() {
-        System.out.println("hello proxy");
-    }
-
-}
 
 class MyProxy implements InvocationHandler {
 
-    public hello h2;
-
-    public MyProxy(hello h2) {
-        this.h2 = h2;
-    }
-
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        method.invoke(h2);
+        System.out.println("这句话会不会输出，会，所以这里能动态添加一下功能");
+        if (method.getName().equals("hello"))
+            System.out.println("this is hello method");
         return null;
     }
 }
